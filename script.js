@@ -137,8 +137,8 @@
                  <p> 
                      Here is a link to the complete meeting notes document: 
                  </p>
-                 <a href="/project1/meetingMinutes.pdf" download>  
-                 <img src="/project1/download-img.png" style="width:20px; vertical-align:middle;"> 
+                 <a href="project1/meetingMinutes.pdf" download>  
+                 <img src="project1/download-img.png" style="width:20px; vertical-align:middle;"> 
                  Download meeting-minutes
                  </a>
                  <p>
@@ -172,7 +172,7 @@
                      <div id="img1" class="grid-item1">
                          <img
                          class="design-process"
-                         src="/project1/functions-objectives-constraints.png"
+                         src="project1/functions-objectives-constraints.png"
                          alt="Functions, Objectives, and Constraints Brainstorm"
                          />
                          <p>Table summarizing the project's core functions, objectives, and constraints, detailing the 
@@ -186,7 +186,7 @@
                      <div id="img2" class="grid-item">
                          <img
                          class="design-process"
-                         src="/project1/morph-table.png"
+                         src="project1/morph-table.png"
                          alt="Morph Table"
                          />
                          <p> 
@@ -206,7 +206,7 @@
                      <div id="img3" class="grid-item">
                          <img
                          class="design-process"
-                         src="/project1/sketch1.png"
+                         src="project1/sketch1.png"
                          alt="First Sketch"
                          />
                          <p>
@@ -225,7 +225,7 @@
                      <div id="img4" class="grid-item">
                          <img
                          class="design-process"
-                         src="/project1/printedmodel.png"
+                         src="project1/printedmodel.png"
                          alt="Printed Model"
                          />
                          <p>
@@ -264,8 +264,8 @@
              </p>
              </div>
              <div class="scrollable-container">
-                 <img src="/project1/graphics-flowchart.png">
-                 <img src="/project1/overweight-flowchart.png">
+                 <img src="project1/graphics-flowchart.png">
+                 <img src="project1/overweight-flowchart.png">
              </div>
              <div>
                  <div>
@@ -289,7 +289,7 @@
                  <div class="image-row">
                      <!-- Image 1 + caption -->
                      <div class="process-step2">
-                         <img class="design-process3" src="/project1/cad1.jpg" alt="CAD Model 1" />
+                         <img class="design-process3" src="project1/cad1.jpg" alt="CAD Model 1" />
                          <p> 
                              This was the first CAD model our group collectively agreed upon. After spending time
                              3D printing the design, we discovered that the rigid rod connected to the rotary actuator 
@@ -304,7 +304,7 @@
 
                      <!-- Image 2 + caption -->
                      <div class="process-step2">
-                         <img class="design-process3" src="/project1/cad2.jpg" alt="CAD Model 2" />
+                         <img class="design-process3" src="project1/cad2.jpg" alt="CAD Model 2" />
                          <p>
                              After many iterations, we finalized this design and 3D printed it as well. The rotary actuator 
                              and the string mechanism we purchased worked effectively to lower the bridge. However, raising 
@@ -320,7 +320,7 @@
 
                      <!-- Image 3 + caption -->
                      <div class="process-step2">
-                     <img class="design-process3" src="/project1/cad3.jpg" alt="CAD Model 3" />
+                     <img class="design-process3" src="project1/cad3.jpg" alt="CAD Model 3" />
                          <p>
                              In our final iteration, we addressed all the remaining challenges identified in previous designs. 
                              The sliding mechanism was refined further to ensure smooth and unrestricted movement, and the rotary 
@@ -360,7 +360,7 @@
                  <!-- IMAGE + CAPTION on the RIGHT -->
                  <div class="image-content2">
                      <div>
-                     <img src="/project1/code-sni.png" alt="Code Snippet">
+                     <img src="project1/code-sni.png" alt="Code Snippet">
                      </div>
                      <div class="image-caption5">
                      <p>
@@ -386,9 +386,9 @@
                  <!-- 2. Images side by side + single caption -->
                  <div class="images-and-caption">
                      <div class="imagesrow">
-                     <img src="/project1/passengerdata-code.png" alt="Passenger Data Code">
-                     <img src="/project1/fleetdata-code.png" alt="Fleet Data Code">
-                     <img src="/project1/overweight-code.png" alt="Overweight Code">
+                     <img src="project1/passengerdata-code.png" alt="Passenger Data Code">
+                     <img src="project1/fleetdata-code.png" alt="Fleet Data Code">
+                     <img src="project1/overweight-code.png" alt="Overweight Code">
                      </div>
                      <div class="image-caption5">
                      <p> 
@@ -403,8 +403,8 @@
                          <p>
                              Download the Python code for processing passenger and fleet data here:
                          </p>
-                         <a href="/project1/Mon28_software.py" download>
-                             <img src="/project1/download-img.png" alt="Download Icon" class="download-icon">
+                         <a href=project1/Mon28_software.py" download>
+                             <img src="project1/download-img.png" alt="Download Icon" class="download-icon">
                              download software file (.py)
                          </a>
                      </div>
@@ -412,8 +412,8 @@
                          <p>
                              Download the Python code for controlling Quanser arm and rotary actuator:
                          </p>
-                         <a href="/project1/Mon28_hardware.py" download>
-                             <img src="/project1/download-img.png" alt="Download Icon" class="download-icon">
+                         <a href="project1/Mon28_hardware.py" download>
+                             <img src="project1/download-img.png" alt="Download Icon" class="download-icon">
                              download hardware file (.py)
                          </a>
                      </div>
