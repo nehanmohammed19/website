@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nehan Mohammed's Porfollio</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div>
+          <img src="headshot.jpeg" alt="Headshot" style="width: 16rem; height: 16rem; border-radius: 50%; object-fit: cover; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); border: 4px solid rgba(0, 128, 255, 0.2); margin-bottom: 1rem;">
+       
+          <section class="about-me-section">
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm <strong>Nehan Mohammed</strong>, a passionate Engineering student at 
+                <strong>McMaster University</strong>, pursuing a Bachelor of Engineering set to graduate in 
+                2029. I have a strong interest in <strong>Mechatronics</strong> and <strong>Software Development</strong>.
+            </p>
+            <p>
+                My academic journey has equipped me with hands-on experience in 
+                <strong>programming</strong>, <strong>robotics</strong>, and <strong>problem-solving</strong>.
+            </p>
+            <p>Some highlights of my journey include:</p>
+            <ul class="about-highlights">
+                <li>Building dynamic projects like a <strong>Bird Flocking Simulation</strong> in <strong>Python</strong>.</li>
+                <li>Creating a <strong>Hand Gesture Controlled Car</strong> integrating <strong>Arduino</strong> and 
+                <strong>Raspberry Pi</strong>.</li>
+                <li>Actively contributing to the <strong>McMaster Mars Rover Team</strong> as a member of the software subteam.</li>
+            </ul>
+            <p>
+                Feel free to explore my projects and connect with me through the Contact section. 
+                For more details about my experience, check out my <strong>resume</strong> or reach out to me directly!
+            </p>
+            
+        </section>
+        
+        
+        </div>
+        
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card" onclick="openModal('project1')">
+                <h3>1P13 Project 1- International Airport Challenge</h3>
+            </div>
+            <div class="project-card" onclick="openModal('project2')">
+                <h3>Project 2</h3>
+            </div>
+            <div class="project-card" onclick="openModal('project3')">
+                <h3>Project 3</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email me at: <a href="mailto:example@example.com">example@example.com</a></p>
+    </section>
+
+
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+          <span class="close-button" onclick="closeModal()">&times;</span>
+          <h3 id="modal-title">Project Title</h3>
+          <div id="modal-body">
+              <p id="modal-description">Project details will appear here.</p>
+              <div id="modal-images"></div> <!-- Placeholder for images and diagrams -->
+          </div>
+      </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
