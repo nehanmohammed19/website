@@ -34,7 +34,6 @@ function closeModal(modalId) {
     }
 }
 
-
 document.getElementById('project1-trigger').addEventListener('click', () => showModal('project-modal'));
 document.getElementById('project2-trigger').addEventListener('click', () => showModal('project2-modal'));
 document.getElementById('project3-trigger').addEventListener('click', () => showModal('project3-modal'));
@@ -62,9 +61,9 @@ function updateModalContent(modalId, title, description, images = []) {
 }
 
 
+
 updateModalContent('project1-modal', '1P13 Project 1 - International Airport Challenge', 'Details about Project 1.', [
-    'project1-image1.png',
-    'project1-image2.png'
+    
 ]);
 updateModalContent('project2-modal', 'Project 2', 'Details about Project 2.', [
     'project2-diagram.png'
