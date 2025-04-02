@@ -78,9 +78,12 @@ section.visible {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1.5rem;
+    max-width: 1200px; /* 3 x 300px + gaps */
+    margin: 0 auto;   /* center the grid */
 }
+
 
 .project-card {
     background: #21262d;
@@ -567,7 +570,7 @@ width: 40rem;
 
 .timeline-container h3 {
 font-size: 1.5rem;
-margin-bottom: 1.5rem;
+margin-bottom: 0rem;
 color: #58a6ff;
 text-align: center;
 }
@@ -578,8 +581,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 position: relative;
-gap: 2rem;
-padding: 1rem 0;
+gap: 0rem;
+padding: 0rem 0;
 margin: 0;
 }
 
@@ -589,7 +592,7 @@ text-align: center;
 position: relative;
 width: 100%;
 max-width: none;
-padding: 1rem 0;
+padding: 0rem 0;
 }
 
 
@@ -603,7 +606,7 @@ font-weight: bold;
 line-height: 50px;
 border-radius: 50%;
 margin-left: 50%;
-margin-bottom: 1rem;
+margin-bottom: 0rem;
 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -1275,3 +1278,102 @@ background-color: #ff3333;
 .download-item img {
     margin-right: 0.5rem; /* Add spacing between icons and text */
 }
+
+.intro-image2 {
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    height: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border: 4px solid rgba(0, 128, 255, 0.2);
+    flex-shrink: 0;
+    margin-top: 4rem;
+    }
+
+.design-process-box1{
+    margin-top: 1rem;
+    background-color: #1e1e1e;
+    color: #c9d1d9;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.objective-tree-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  .chosen-objectives{
+    font-size: 1rem;
+  }
+  .objective-tree,
+  .chosen-objectives {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .objective-tree-pic {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin-top: 0.5rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border: 4px solid rgba(0, 128, 255, 0.2);
+  }
+  
+  .morph-chart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .morph-chart-container .table,
+  .morph-chart-container .mini-reflection {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  
+  .table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  .table th {
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  .formula {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem;
+    align-items: flex-start;  /* Aligns items to the top */
+    justify-content: flex-start; /* Aligns content to the left */
+    margin-top: 1rem;
+    text-align: left; /* Ensure text aligns left */
+  }
+  
+  .MPI-equation {
+    flex: 1;
+    min-width: 400px;
+    text-align: left; /* Ensure math aligns left */
+  }
+  
