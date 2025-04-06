@@ -38,6 +38,7 @@ document.getElementById('project1-trigger').addEventListener('click', () => show
 document.getElementById('project2-trigger').addEventListener('click', () => showModal('project2-modal'));
 document.getElementById('project3-trigger').addEventListener('click', () => showModal('project3-modal'));
 document.getElementById('project4-trigger').addEventListener('click', () => showModal('project4-modal'));
+document.getElementById('project5-trigger').addEventListener('click', () => showModal('project5-modal'));
 
 
 function updateModalContent(modalId, title, description, images = []) {
