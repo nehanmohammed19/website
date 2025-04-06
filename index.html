@@ -1315,58 +1315,184 @@
       
             </div>
           </div> 
-          <div class="design-process-box">
-            <h3 class="subheading">Design Process</h3>
-            <div>
-              <p>
-                Our design process for EchoWeigh began by identifying the problem and establishing objectives tailored to assist users with Usher Syndrome. Through collaborative brainstorming and iterative refinement, we explored various design alternatives, developed early prototypes, and fine-tuned our circuit integration and software feedback system. This process ensured that each phase aligned with our goal of creating an accessible, accurate, and cost-effective assistive kitchen scale.
-              </p>
+          <section id="dp-section">
+            <h3 class="dp-heading">Design Process</h3>
+            <div class="dp-grid">
+              <!-- Card 1: Functional Analysis & Ideation -->
+              <div class="dp-item">
+                <h4 class="dp-item-title">Functional Analysis & Ideation</h4>
+                <p class="dp-item-text">
+                  We began by developing a detailed morph chart to analyze EchoWeigh’s functions and constraints. 
+                  This phase was very important as we balanced multiple objectives, which were accuracy, simplicity, 
+                  affordability, and accessibility. The process involved many discussions on whether a more complex 
+                  mechanism would truly be better or if a simpler design could deliver the same performance. These converstaions 
+                  that I had with my group allowed us to narrow our options and refine our approach.
+                </p>
+                <img src="project3/P3_Morph_table.png" alt="Morph Chart for Functional Analysis" class="dp-item-img">
+                <p class="dp-caption">Figure: Morph chart summarizing design functions and constraints.</p>
+              </div>
+              
+              <!-- Card 2: Concept Sketches -->
+              <div class="dp-item" style="padding-left: 0; padding-right: 0;">
+                <h4 class="dp-item-title">Concept Sketches</h4>
+                <p class="dp-item-text">
+                    Using the morph chart, we created initial sketches of many devices that fulfilled the current objectives, 
+                    and after narrowing down many of the means, we finally got to a load cell and audio output, where we made 
+                    more sketches to visualize what our prototype was going to be. These sketches allowed us to learn about the 
+                    promising ideas and challenges we could face with this solution. One key difficulty was ensuring that the 
+                    custom cup could integrate well with the scale. Through multiple iterations later, we learned that minor 
+                    adjustments in the platform size greatly influenced usability and overall device durability.
+                </p>
+                <img src="project3/P3_inital_Sketch.png" alt="Concept Sketch of Cup/Scale" class="dp-item-img" style="width: 49%;">
+                <img src="project3/P3_inital_Sketch2.png" alt="Concept Sketch of Cup/Scale" class="dp-item-img" style="width: 49%;">
+                <p class="dp-caption">Figure: Initial sketches illustrating potential integration of the cup with the scale.</p>
+              </div>
+              
+              <!-- Card 3: Circuit Integration -->
+              <div class="dp-item">
+                <h4 class="dp-item-title">Circuit Integration</h4>
+                <p class="dp-item-text">
+                    As the mechanical components of the design were being created, I turned my focus to electronics where 
+                    I had a large contribution in. I wired all of the components together, and coded the software for the 
+                    scale, as well as audio output. I also integrated the software components and electronics together allowing 
+                    for a working prototype. During circuit integration, there were many issues with the load cell giving 
+                    inaccurate values, as it was moving and bending as weight above 100g was placed. From this, the group 
+                    went back to the design space and brainstormed new ways to secure the load cell in order to receive 
+                    accurate readings.                
+                </p>
+                <img src="project3/P3_Electrical_stuff.png" alt="Internal Circuit Layout" class="dp-item-img" style="width: 60%;">
+                <p class="dp-caption">Figure: The internal layout of EchoWeigh’s electrical components, clearly labeled for reference.</p>
+              </div>
+              
+              <div class="dp-item">
+                <h4 class="dp-item-title">Cup and Scale Evolution</h4>
+                <p class="dp-item-text">
+                    After creating sketches, our next step was to create an initial prototype, in Autodesk Inventor, and 
+                    3D print as soon as possible. I really wanted to make as many iterations as possible to test out all 
+                    the ideas that we have and so that we can try to figure out all of the issues from testing as well. 
+                    Our initial prototype consisted of a bowl and a platform made of cardboard. We soon found out that this 
+                    was not suitable at all, as the bowl was difficult to carry, and the cardboard bent too easily causing 
+                    inaccurate measurements. We then switched to a funnel-type cup and a sturdier platform which improved the
+                    prototype functionally as a whole. 
+                </p>
+                <div class="evolution-container">
+                  <!-- Cup Evolution Row -->
+                  <div class="evolution-row">
+                    <h5 class="evo-title">Cup Evolution</h5>
+                    <div class="evo-grid">
+                      <div class="evo-item">
+                        <img src="project3/P3_Bowl_Before.png" alt="Cup Before" class="evo-img">
+                        <p class="evo-caption">Before</p>
+                      </div>
+                      <div class="arrow-icon">&#8594;</div>
+                      <div class="evo-item">
+                        <img src="project3/P3_Bowl_After.png" alt="Cup After" class="evo-img">
+                        <p class="evo-caption">After</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Scale Evolution Row -->
+                  <div class="evolution-row">
+                    <h5 class="evo-title">Scale Evolution</h5>
+                    <div class="evo-grid">
+                      <div class="evo-item">
+                        <img src="project3/P3_platform_before.png" alt="Scale Before" class="evo-img">
+                        <p class="evo-caption">Before</p>
+                      </div>
+                      <div class="arrow-icon">&#8594;</div>
+                      <div class="evo-item">
+                        <img src="project3/P3_platform_after.png" alt="Scale After" class="evo-img">
+                        <p class="evo-caption">After</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>                          
+              <!-- Card 5: Accuracy Testing -->
+              <div class="dp-item">
+                <h4 class="dp-item-title">Accuracy Testing</h4>
+                <p class="dp-item-text">
+                    We conducted accuracy tests by comparing EchoWeigh’s from the load cell readings against a conventional 
+                    scale. At the start there were many discrepancies from larger masses with errors of up to 50%.However, 
+                    after iterative adjustments were made both the platform and the software, an accuracy error of less than 
+                    2% was achieved. This phase taught us the importance of systematic testing and precise calibration to achieve 
+                    reliable results.
+                </p>
+                <img src="project3/P3_accuracy_testing.png" alt="Accuracy Testing Results" class="dp-item-img">
+                <p class="dp-caption">Figure: Comparison between EchoWeigh measurements and a standard scale.</p>
+              </div>
+              
+              <!-- Card 6: Durability Testing -->
+              <div class="dp-item">
+                <h4 class="dp-item-title">Durability Testing</h4>
+                <p class="dp-item-text">
+                  Durability was evaluated by performing displacement tests using Granta software. Initial prototypes using cardboard deformed under stress, leading us to switch to a laser-cut acrylic base. This phase underscored that material selection is critical for long-term stability and that even small design adjustments can lead to significant improvements in durability.
+                </p>
+                <img src="project3/P3_discplacement_testing.png" alt="Durability Testing Results" class="dp-item-img">
+                <p class="dp-caption">Figure: Displacement test results showing improved durability with acrylic.</p>
+              </div>
             </div>
-            <div class="grid-container2">
-              <!-- Box 1: Identifying Problem and Objectives -->
-              <div id="img1" class="grid-item1">
-                <img class="design-process" src="project3/p3-objectives.png" alt="Identifying Problem and Objectives">
-                <p>
-                  Table summarizing EchoWeigh's core functions, objectives, and constraints, emphasizing the need for audio feedback, precise weight measurement, and affordability.
-                </p>
-              </div>
-              <div class="arrow arrow-right"></div>
-          
-              <!-- Box 2: Ideation and Concept Sketches -->
-              <div id="img2" class="grid-item">
-                <img class="design-process" src="project3/ideation_sketches.png" alt="Ideation and Concept Sketches">
-                <p>
-                  Concept sketches and ideation phase for EchoWeigh, where we explored multiple sensor placements and button configurations to enhance user interaction.
-                </p>
-              </div>
-          
-              <!-- Arrow Down -->
-              <div class="arrow arrow-down"></div>
-          
-              <!-- Box 3: Initial Prototype and Circuit Building -->
-              <div id="img3" class="grid-item">
-                <img class="design-process" src="project3/initial_prototype.png" alt="Initial Prototype and Circuit Building">
-                <p>
-                  The initial prototype was built using low-cost materials to validate the design. We assembled the circuit on a breadboard with an Arduino Uno, a load cell with HX711 amplifier, and a DFPlayer Mini to test the audio output system.
-                </p>
-              </div>
-              <div class="arrow arrow-left"></div>
-          
-              <!-- Box 4: Testing Plan and Final Prototype -->
-              <div id="img4" class="grid-item">
-                <img class="design-process" src="project3/final_prototype.png" alt="Testing Plan and Final Prototype">
-                <p>
-                  After iterative testing for weight accuracy, audio clarity, and usability, the final EchoWeigh design was realized with a laser-cut acrylic base and refined circuitry, fully meeting the project's objectives.
-                </p>
-              </div>
-            </div>
-          </div>
+          </section>      
+          <div class="dp-item">
+            <h4 class="dp-item-title">Final Program</h4>
+            <p class="dp-item-text">
+              I had major contributions to Writing the code and integrating it with the hardware 
+              for EchoWeigh. The core of the software design is based around a 
+              <strong>state machine</strong> to control everything without any delays. This approach
+              processes button inputs to transition the system between different modes,
+              allowing EchoWeigh to manage multiple tasks without lag or interference.
+              Specifically, our code handles:
+            </p>
+            <ul class="dp-item-list">
+              <li><strong>Power Control:</strong> Turning the scale on or off depending on button input.</li>
+              <li><strong>Unit Conversion:</strong> Switching between grams and cups on-the-fly.</li>
+              <li><strong>Tare Function:</strong> Zeroing the scale even if a container is on top.</li>
+              <li><strong>Repeat Last Reading:</strong> Replaying the last measured weight via audio.</li>
+            </ul>
+            <p class="dp-item-text">
+              Each mode is triggered by a unique button press and processed in a non-blocking manner. 
+              For instance, if the system detects the second button being pressed, it switches units 
+              without disrupting other functionalities, like measuring weight and playing audio.
+              By isolating tasks into distinct states, I ensured there are no bugs which cause unreliable weight measurements 
+              and audio feedback.
+            </p>
+            <p style=" color: #c9d1d9;">
+              A significant challenge during software development was integrating the DFPlayer Mini. To play the correct weight, 
+              I needed to accurately map each weight to its corresponding MP3 file. Deciphering the pattern took considerable time,
+             but once implemented, the system worked seamlessly, providing clear audio feedback for weights from 0 to 1000 grams.
+             This project allowed me to build on my software skills in C++, particularly in writing efficient, hardware-level code for 
+             real-time systems. Working with state machines, button debouncing, and serial communication allowed me to better my understanding of 
+             embedded programming to create projects that help people. 
+            </p>
+            <p class="dp-item-text">
+              Here is a link to the arduino hardware code
+            <a href="project3/P3_Hardware_Code.ino" download>
+                <img src="project1/download-img.png" style="width:20px; vertical-align:middle;"> 
+                Donwload the .ino file </a>            
+            </p>
+          </div>              
           <div class="final-program">
             <h3 class="subheading">Reflection</h3>
             <p>
-              EchoWeigh was a project that pushed us to rethink how we design for accessibility. It taught me not only how to prototype
-              and test embedded systems but also how to engage meaningfully with real-world clients. I'm proud that our work can positively
-              impact someone’s everyday life.
+                This project pushed me out of my comfort zone a lot,  especially when I was developing software and integrating 
+                all of the electronic components. At various times during the project, I found myself questioning the approach 
+                we took on the components we chose and methods, especially when integrating the DFPlayer Mini module. The questions 
+                started when I was struggling with mapping each individual weight measurement to the correct audio file. I almost 
+                gave up, and was thinking if as a group we made the correct decision to purchase this? Or was there a better solution 
+                to getting audio for the scale? Should we use an ESP32 over Arduino? I felt like I always made the incorrect decision 
+                as at times nothing was working, but after much time debugging and trying new approaches, it finally worked and I was 
+                very joyful. 
+            </p>
+            <p>
+                While our accuracy tests showed promising results with an error of less than 2%, I also questioned if the hardware 
+                choices made, such as the load cell and Arduino configuration, would perform well under the varying conditions of a 
+                real kitchen environment. Would frequent usage and potential mishandling lead to the scale breaking, or could these 
+                components sustain long-term practical use?
+            </p>
+            <p>
+                Despite these concerns, overcoming these challenges greatly enhanced my skills in C++ and my ability to troubleshoot 
+                embedded systems. The skills and reflective habits gained here will certainly affect my approach to future projects, 
+                ensuring I balance theoretical ideas with practical considerations.
             </p>
           </div>
         </div>

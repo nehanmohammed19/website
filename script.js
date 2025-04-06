@@ -94,3 +94,27 @@ updateModalContent('project2-modal', 'Hand Gesture Controlled Rover', [
 
 updateModalContent('project3-modal', 'BOGOCHIB- Boid Simulation', [
 ]);
+
+// dp-process.js - Animate design process cards on scroll
+document.addEventListener("DOMContentLoaded", function () {
+    const dpItems = document.querySelectorAll(".dp-item");
+  
+    const observerOptions = {
+      threshold: 0.1
+    };
+  
+    const dpObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("dp-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+  
+    dpItems.forEach(item => {
+      dpObserver.observe(item);
+    });
+  });
+  
+  

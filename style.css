@@ -1392,3 +1392,166 @@ background-color: #ff3333;
     margin-top: 0;
     
 }
+/* Design Process Section for Project 3 - EchoWeigh */
+#dp-section {
+    padding: 2rem;
+    color: #c9d1d9;
+  }
+  
+  .dp-heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #58a6ff;
+    margin-bottom: 2rem;
+  }
+  
+  .dp-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  /* Design Process Card Styles */
+  .dp-item {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 1.5rem;
+    opacity: 0;
+    transform: translateY(20px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .dp-item.dp-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .dp-item-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #58a6ff;
+  }
+  
+  .dp-item-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .dp-item-img {
+    width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border: 4px solid rgba(0, 128, 255, 0.2);
+    margin-bottom: 0.5rem;
+  }
+  
+  .dp-caption {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #8b949e;
+  }
+  
+  /* Responsive grid: two columns on larger screens */
+  @media (min-width: 768px) {
+    .dp-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+  }
+  
+  /* Prototype Grid Container */
+/* Evolution Container Styles */
+.evolution-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+  
+  .evolution-row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .evo-title {
+    font-size: 1.25rem;
+    color: #58a6ff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .evo-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  .evo-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .evo-img {
+    width: 100%;
+    max-width: 900px; /* Adjust this size as needed */
+    border-radius: 4px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border: 4px solid rgba(0, 128, 255, 0.2);
+  }
+  
+  .evo-caption {
+    font-size: 0.9rem;
+    color: #8b949e;
+    margin: 0;
+  }
+  
+  .arrow-icon {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: #58a6ff;
+    flex-shrink: 0;
+    align-self: center;
+  }
+  
+  .dp-item {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+  }
+  
+  .dp-item-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #58a6ff;
+  }
+  
+  .dp-item-text {
+    color: #c9d1d9;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .dp-item-list {
+    color: #c9d1d9;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    list-style: disc;
+  }
+  
+  .dp-item-list li {
+    margin: 0.5rem 0;
+  }
+  
